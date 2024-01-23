@@ -1,0 +1,71 @@
+[
+{
+    "id":1,
+    "name": "LDB1 LOUNGE CHAIR", 
+    "price":200,
+    "image":"images/chair2.jpg"
+
+},
+{
+    "id":2,
+    "name": "LDB1 LOUNGE CHAIR", 
+    "price":230,
+    "image":"images/chair2.jpg"
+
+},
+{
+    "id":3,
+    "name": "LDB1 LOUNGE CHAIR", 
+    "price":250,
+    "image":"images/chair2.jpg"
+
+},
+{
+    "id":4,
+    "name": "LDB1 LOUNGE CHAIR", 
+    "price":260,
+    "image":"images/chair2.jpg"
+
+},
+{
+    "id":5,
+    "name": "LDB1 LOUNGE CHAIR", 
+    "price":300,
+    "image":"images/chair2.jpg"
+
+},
+{
+    "id":6,
+    "name": "LDB1 LOUNGE CHAIR", 
+    "price":320,
+    "image":"images/chair2.jpg"
+
+},
+{
+    "id":7,
+    "name": "LDB1 LOUNGE CHAIR", 
+    "price":270,
+    "image":"images/chair2.jpg"
+
+},
+{
+    "id":8,
+    "name": "LDB1 LOUNGE CHAIR", 
+    "price":400,
+    "image":"images/chair2.jpg"
+
+},
+{
+    "id":9,
+    "name": "LDB1 LOUNGE CHAIR", 
+    "price":400,
+    "image":"images/chair2.jpg"
+
+},{
+    "id":10,
+    "name": "LDB1 LOUNGE CHAIR", 
+    "price":400,
+    "image":"images/chair2.jpg"
+
+}
+]
