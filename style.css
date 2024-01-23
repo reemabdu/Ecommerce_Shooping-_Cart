@@ -97,7 +97,7 @@ header .icon-cart span{
     top: 0px;
     right: 0px;
     bottom: 0px;
-    inset:0 -400px 0 auto;
+    inset:0 0 0 auto;
     display: grid;
     grid-template-rows: 70px 1fr 70px;
     transition: .5s;

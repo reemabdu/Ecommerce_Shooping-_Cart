@@ -15,10 +15,12 @@ let listProductHTML= document.querySelector('.listProduct');
 
 let listProducts=[];
 iconCart.addEventListener('click',() => {
-    body.classList.toggle('showCart')
+    // body.classList.toggle('showCart')
+    document.getElementById("cartTab").style.display="block"
 })
 closeCart.addEventListener('click',() => {
-    body.classList.toggle('showCart')
+    // body.classList.toggle('showCart')
+    document.getElementById("cartTab").style.display="none"
 })
 const addDataToHTML = ()  => {
     listProductHTML.innerHTML = '';
