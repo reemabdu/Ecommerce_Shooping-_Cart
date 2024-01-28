@@ -138,9 +138,10 @@ const changeQuantity = (product_id , type) => {
                 break;
         }
     }
+    addCartToMemory();
+    addCartToHTML();
 }
-addCartToMemory();
-addCartToHTML();
+
 const initApp = () => {
 // get data from json 
 fetch('products.json')
