@@ -1,83 +1,84 @@
 [
 {
     "id":1,
-    "name": "LDB1 LOUNGE CHAIR", 
+    "name": "Room", 
     "price":200,
     "image":"images/chair2.jpg"
+   
 
 },
 {
     "id":2,
-    "name": "LDB1 LOUNGE CHAIR", 
+    "name": "LDB2 LOUNGE CHAIR", 
     "price":230,
     "image":"images/chair3.jpg"
 
 },
 {
     "id":3,
-    "name": "LDB1 LOUNGE CHAIR", 
+    "name": "LDB3 LOUNGE CHAIR", 
     "price":250,
     "image":"images/chair4.jpg"
 
 },
 {
     "id":4,
-    "name": "LDB1 LOUNGE CHAIR", 
+    "name": "LDB4 LOUNGE CHAIR", 
     "price":260,
     "image":"images/chair5.jpg"
 
 },
 {
     "id":5,
-    "name": "LDB1 LOUNGE CHAIR", 
+    "name": "LDB5 LOUNGE CHAIR", 
     "price":300,
     "image":"images/chair6.jpg"
 
 },
 {
     "id":6,
-    "name": "LDB1 LOUNGE CHAIR", 
+    "name": "LDB6 LOUNGE CHAIR", 
     "price":320,
     "image":"images/chair1.jpg"
 
 },
 {
     "id":7,
-    "name": "LDB1 LOUNGE CHAIR", 
+    "name": "LDB7 LOUNGE CHAIR", 
     "price":270,
     "image":"images/chair2.jpg"
 
 },
 {
     "id":8,
-    "name": "LDB1 LOUNGE CHAIR", 
+    "name": "LDB8 LOUNGE CHAIR", 
     "price":400,
     "image":"images/chair1.jpg"
 
 },
 {
     "id":9,
-    "name": "LDB1 LOUNGE CHAIR", 
+    "name": "LDB9 LOUNGE CHAIR", 
     "price":400,
     "image":"images/chair2.jpg"
 
 },{
     "id":10,
-    "name": "LDB1 LOUNGE CHAIR", 
+    "name": "LDB10 LOUNGE CHAIR", 
     "price":400,
     "image":"images/chair3.jpg"
 
 },
 {
     "id":11,
-    "name": "LDB1 LOUNGE CHAIR", 
+    "name": "LDB11 LOUNGE CHAIR", 
     "price":400,
     "image":"images/chair4.jpg"
 
 },
 {
-    "id":10,
-    "name": "LDB1 LOUNGE CHAIR", 
+    "id":12,
+    "name": "LDB12 LOUNGE CHAIR", 
     "price":400,
     "image":"images/chair5.jpg"
 

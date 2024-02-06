@@ -31,7 +31,7 @@ const addDataToHTML = ()  => {
             let newProduct = document.createElement('div');
             newProduct.classList.add('item');
             newProduct.dataset.id = product.id;
-            newProduct.innerHTML = `
+            newProduct.innerHTML+= `
             <img src="${product.image}" alt="images">
                <h2>${product.name}</h2>
                <div class="price">${product.price}</div>
@@ -87,9 +87,10 @@ if(carts.length > 0){
         newCart.dataset.id = cart.product_id;
         let positionProduct = listProducts.findIndex((value) => value.id == cart.product_id);
         let info = listProducts[positionProduct];
+        if(info){
         newCart.innerHTML = `
         <div class="image">
-                    <img src="${info.image}" alt="image" width="100px;">
+                <img src="${info.image}" alt="image" width="100px;">
                 </div><!-- /image -->
                 <div class="name">
                 ${info.name}
@@ -104,10 +105,11 @@ if(carts.length > 0){
                 </div><!-- /quantity-->
             </div><!-- /item -->` ;
             listCartHTML.appendChild(newCart);
-    })
+        }
+    });
 }
 iconCartSpan.innerText = totlaQuantity;
-}
+};
 listCartHTML.addEventListener('click',(event) => {
     let positionClick = event.target;
     if(positionClick.classList.contains('minus') ||positionClick.classList.contains('plus') ){
@@ -121,8 +123,8 @@ listCartHTML.addEventListener('click',(event) => {
     }
 })
 const changeQuantity = (product_id , type) => {
-    let positionItemIncart = carts.findIndex((value) => value.product_id = value.product_id);
-    if(positionItemIncart > 0){
+    let positionItemIncart = carts.findIndex((value) => value.product_id == value.product_id);
+    if(positionItemIncart >= 0 ){
         switch (type) {
             case 'plus':
                 carts[positionItemIncart].quantity = carts[positionItemIncart].quantity + 1;
